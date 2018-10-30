@@ -1,4 +1,8 @@
 # r-ggplot-points-question
+Following 
+
+http://nickstrayer.me/RMarkdown_Sites_tutorial/
+
 
 Try to make this into a github page website
 
@@ -21,3 +25,22 @@ touch about.Rmd #Create an about file
 # Next fill these out 
 -> in R
 We will start by filling out the yml file. yml files, while confusing looking at first, are basically a road-map for R to know how to assemble your website.
+
+# Next to actually build this as a website 
+-> in Terminal
+touch build_site.R
+
+-> in R 
+	... fill as 
+	run 	# Output created: index.html
+
+# Next to actually publish
+-> in Terminal
+	#Let's add all the files to our git staging area
+	git add -A #the -A flag tells it git you want everything
+	
+	#Now we can commit
+	git commit -m "My first website commit. The begining of greatness"
+	
+	#Now we push. Note the addendum to normal pushing
+	git push origin master
