@@ -1,0 +1,9 @@
+name: "BUBBLE-MAP"
+output_dir: "."
+navbar:
+  title: "GGPLOT BUBBLE MAP QUESTION"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
